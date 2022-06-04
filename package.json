@@ -1,0 +1,34 @@
+{
+  "name": "express-mongo-api-template",
+  "version": "1.0.0",
+  "description": "A simple template for a ready to use Node Express Mongo webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macmist/node-express-mongo-api-template.git"
+  },
+  "keywords": [
+    "mongodb",
+    "Node.js",
+    "Express",
+    "API"
+  ],
+  "author": "Quentin Musy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macmist/node-express-mongo-api-template/issues"
+  },
+  "homepage": "https://github.com/macmist/node-express-mongo-api-template#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0"
+  }
+}
